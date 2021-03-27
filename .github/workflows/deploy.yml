@@ -43,17 +43,15 @@ jobs:
           hugo --minify
 
       - name: Depoly
+        env:
+          username: ${{secrets.username}}
+          useremail: ${{secrets.useremail}}
         run: |
           cd public
           ls -la
-          git init
-          git remote add origin git@github.com:into-vyong/Cirrus.git
           git config --global user.name "${username}"
           git config --global user.email "${useremail}"
+          git init
+          git remote add origin git@github.com:into-vyong/Cirrus.git
           git add .
           git commit -m "Auto Construct"
-      - name: Push Github
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: "master"
