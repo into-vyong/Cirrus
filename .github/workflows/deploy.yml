@@ -3,7 +3,7 @@ name: Blog Workflow
 on:
   push:
     branches:
-      - master
+      - cirrus
   schedule:
     - cron: "0 2 * * *"
 
