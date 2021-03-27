@@ -50,6 +50,7 @@ jobs:
           cd public
           ls -la
           git init
+          git remote add origin git@github.com:into-vyong/Cirrus.git
           git config --global user.name "${username}"
           git config --global user.email "${useremail}"
           git add .
