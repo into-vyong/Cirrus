@@ -53,6 +53,7 @@ jobs:
           git config --global user.name "${username}"
           git config --global user.email "${useremail}"
           git init
-          git remote add origin git@github.com:into-vyong/Cirrus.git
+          git branch -M master
+          git remote add origin git@github.com:into-vyong/into-vyong.github.io.git
           git add .
           git commit -m "Auto Construct"
