@@ -7,6 +7,7 @@ tags:
   - Jiaqi Li
   - Shopping
 cover: https://images.unsplash.com/photo-1616621023099-4bd57df8a268
+slug: is-brand-rating-by-mega-influencer-a-great-opportunity-for-new-brand-to-acquire-customers
 category: UnCategorized
 ---
 
