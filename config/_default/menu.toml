@@ -13,20 +13,6 @@
     pre = "user"
 
 [[main]]
-    identifier = "life"
-    name = "Life"
-    url ="/life/"
-    weight = 30
-    pre = "news"
-
-[[main]]
-    identifier = "friends"
-    name = "Friends"
-    url = "/friends/"
-    weight = 40
-    pre = "link"
-
-[[main]]
     identifier = "archives"
     name = "Archives"
     url = "/archives/"

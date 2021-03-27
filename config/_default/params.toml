@@ -1,7 +1,7 @@
 mainSections = ["posts"]
-avatar = "https://ae01.alicdn.com/kf/HTB1DdGHXizxK1RjSspj763S.pXax.png"
+avatar = "https://pic4.zhimg.com/80/v2-638f60ebe89b6bb4a402eae083ce6958_1440w.jpg?source=1940ef5c"
 subtitle = "昔日玫瑰以其名流芳，今人所持唯玫瑰之名"
-description = "这里是 @Wincer，喜欢折腾新技术，却没多大耐心。个人博客会写得比较杂，包括日常吐槽、技术踩坑，偶尔会写正经一点的。欢迎订阅 RSS(•̀ᴗ•́)。"
+description = "这里是 @Vyong 的私人博客"
 
 tagNumber = 50
 
@@ -23,14 +23,3 @@ tagNumber = 50
     "文字阁" = "https://cdn.jsdelivr.net/npm/wir@1.1.0/cate-cover/letter.jpg"
 
 
-[[social]]
-    icon = "twitter"
-    url = "https://twitter.com/wincer_chan"
-
-[[social]]
-    icon = "github"
-    url = "https://github.com/WincerChan"
-
-[[social]]
-    icon = "telegram"
-    url = "https://t.me/Tivsae"
