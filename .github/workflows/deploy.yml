@@ -47,6 +47,7 @@ jobs:
           username: ${{secrets.username}}
           useremail: ${{secrets.useremail}}
         run: |
+          rm -rf .git
           cd public
           ls -la
           git config --global user.name "${username}"
