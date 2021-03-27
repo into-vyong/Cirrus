@@ -48,6 +48,7 @@ jobs:
           useremail: ${{secrets.useremail}}
         run: |
           cd public
+          ls -la
           git init
           git config --global user.name "${username}"
           git config --global user.email "${useremail}"
