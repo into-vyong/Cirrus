@@ -6,7 +6,7 @@ description = "这里是 @Vyong 的私人博客"
 tagNumber = 36
 
 disqusUserName = "wincer"
-backendAPI = "https://api.itswincer.com/"
+backendAPI = "https://api.liuhuirong.com/"
 
 [StaticVendor]
     version = "wir@1.4.2"
