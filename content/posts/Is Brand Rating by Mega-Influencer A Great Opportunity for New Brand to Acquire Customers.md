@@ -2,13 +2,12 @@
 title: Is Brand Rating by Mega-Influencer A Great Opportunity for New Brand to Acquire Customers?
 date: 2021-03-27 10:28:00
 updated: 2021-03-27 10:28:00
-cover: https://images.unsplash.com/photo-1616621023099-4bd57df8a268
-category: UnCategorized
 tags:
   - Tmall
   - Jiaqi Li
   - Shopping
-
+cover: https://images.unsplash.com/photo-1616621023099-4bd57df8a268
+category: UnCategorized
 ---
 
 On March 2nd, Tmall introduced “Scoring Qi” where Jiaqi Li, a famous mega-influencer in live-stream e-commerce, scores each product of each brand. Meanwhile, Jiaqi was also named as Chief Discovery Officer of Tmall Treasure’s new brand. 
