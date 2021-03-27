@@ -43,15 +43,16 @@ jobs:
           hugo --minify
 
       - name: Depoly
-        env:
-          username: ${{secrets.username}}
-          useremail: ${{secrets.useremail}}
         run: |
           cd public
           ls -la
           git init
-          git config --global user.name "${username}"
-          git config --global user.email "${useremail}"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "Auto Construct"
-          git push -f origin master
+      - name: Push Github
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: "master"
