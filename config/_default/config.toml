@@ -1,6 +1,6 @@
-baseURL = "https://blog.itswincer.com/"
+baseURL = "https://into-vyong.github.ui/"
 languageCode = "en-us"
-title = "Wincer's Blog"
+title = "Vyong's Blog"
 hasCJKLanguage = true
 paginate = 6
 canonifyURLS = true
@@ -9,23 +9,13 @@ ignoreErrors = ["error-output-taxonomy"]
 DisablePathToLower = true
 
 [Author]
-    name = "Wincer"
+    name = "Vyong"
 
 [markup]
     [markup.highlight]
         lineNos = true
         noClasses = false
 
-[module]
-    noVendor = ""
-    private = '*.*'
-    proxy = "direct"
-    [[module.imports]]
-        path = "github.com/WincerChan/BlogContent"
-        disabled = false
-        [[module.imports.mounts]]
-            source = "content"
-            target = "content"
 
 [permalinks]
     posts = "posts/:slug"
